@@ -1,0 +1,23 @@
+# Logs
+logs/
+*.log
+
+# Python cache
+__pycache__/
+*/__pycache__/
+*.pyc
+
+# Model-related cache or temporary directories
+models/__pycache__/
+
+mobe_models/
+observation/
+observation_profiles/
+observation_profiles_cov/
+results/
+archive/
+cache/
+
+verify_*.sh
+
+*.csv

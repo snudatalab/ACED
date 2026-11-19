@@ -1,0 +1,9 @@
+# torch is intentionally NOT listed here -- install it separately first,
+# with the CUDA build matching your GPU driver, e.g.:
+#   pip install torch==2.7.1 --index-url https://download.pytorch.org/whl/cu126
+# Then install the rest of this file with `pip install -r requirements.txt`.
+accelerate==1.13.0
+datasets==4.8.4
+safetensors==0.7.0
+tqdm==4.69.0
+transformers==4.51.0
